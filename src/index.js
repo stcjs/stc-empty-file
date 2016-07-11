@@ -38,6 +38,6 @@ export default class EmptyFile extends Plugin {
    * set default include file
    */
    static include() {
-     return /\.less/;
+     return /\.*$/i;
    }
 }
