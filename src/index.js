@@ -10,15 +10,14 @@ export default class EmptyFile extends Plugin {
    * run
    */
   async run(){
-    console.log('empty');
     let content = await this.getContent('utf8');
-    return {content};
+    return {isEmpty:content.length === 0};
   }
   /**
    * update
    */
   update(data){
-      if(data.content.length === 0){
+      if(data.isEmpty){
         this.error('File can\'t be empty');
       }
   }
