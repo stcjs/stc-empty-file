@@ -5,7 +5,7 @@ let options = null;
 /**
  * Use ESlint to verify code
  */
-export default class EmptyFile extends Plugin {
+export default class EmptyFilePlugin extends Plugin {
   /**
    * run
    */
