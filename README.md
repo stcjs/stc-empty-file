@@ -1,20 +1,4 @@
-# stc-empty-file
+# stc-move
 
-Stc plugin for check empty file
+Stc plugin for moving file or dir
 
-## Install
-
-```sh
-npm install stc-empty-file
-```
-
-## How to use
-
-```
-var emptyfile = require('stc-empty-file');
-
-//check empty file
-stc.lint({
-  emptyfile: {plugin: emptyfile, include: /\.*$/}
-});
-```

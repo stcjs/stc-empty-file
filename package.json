@@ -1,7 +1,7 @@
 {
-  "name": "stc-empty-file",
-  "description": "Stc plugin for check empty file",
-  "version": "1.0.0",
+  "name": "stc-move",
+  "description": "Stc plugin for moving file or dir",
+  "version": "1.0.1",
   "author": {
     "name": "lushijie",
     "email": "lushijie1218@126.com"
@@ -39,13 +39,13 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stcjs/stc-empty-file"
+    "url": "https://github.com/stcjs/stc-move"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/stcjs/stc-empty-file/issues"
+    "url": "https://github.com/stcjs/stc-move/issues"
   }
 }
